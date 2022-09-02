@@ -1,27 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./sugestao.css" />
     <title>Sugestão de clima</title>
-</head>
+  </head>
 
-<body>
-    <div class="a">
-        <h1><a href="./index.html">Simulador de Climas</a></h1>
-    </div>
-    <div class="b">
-        <div class="c">
-
-<!-- Seu formukário aqui!-->
-        </div>
-
-    </div>
-    <div class="e">Footer</div>
-
-</body>
-
+  <body>
+    <header class="a">
+      <h1><a href="./index.html">Simulador de Climas</a></h1>
+    </header>
+    <main class="b">
+      <section class="c">
+        <form action="" class="formulario">
+          <div>
+            <label for="nome"
+              >Nome<input
+                required
+                placeholder="Digíte seu nome"
+                type="text"
+                name="nome"
+                id="nome"
+            /></label>
+          </div>
+          <div>
+            <label for="email">E-mail</label>
+            <input
+              required
+              placeholder="E-mail"
+              type="email"
+              name="email"
+              id="email"
+            />
+          </div>
+          <div>
+            <label for="clima">Sugestão de clima</label>
+            <input
+              required
+              placeholder="Sugira um clima"
+              type="text"
+              name="clima"
+              id="clima"
+            />
+          </div>
+          <button class="botao" type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer class="e">
+      Qualquer dúvida entre em contato!!
+      <p>Contato: (22)998746645</p>
+    </footer>
+  </body>
 </html>
